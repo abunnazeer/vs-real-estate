@@ -1,0 +1,401 @@
+
+
+#home-slide{
+    position: relative;
+
+}
+
+.card-box{
+    position: absolute;
+    top: 4rem;
+    right: 8rem;
+    border-top: 4px solid #719a61;
+    height: 30rem;
+    width: 23rem;
+    text-align: center;
+    background-color: rgba(28,31,35,0.9);
+}
+
+.card-box h2{
+    margin: 1rem;
+    color: #fff;
+    text-align: left;
+    font-weight: normal;
+    font-size: 2rem;
+
+}
+
+.card-box h3{
+    margin: 0rem 0rem 4rem 1rem;
+    color: #719a61;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+
+.card-box span{
+    margin: 1rem;
+    color: #000;
+    text-align: left;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 0 0.6rem;
+    border-radius: 30px 1px 0px 30px;
+    background: #fff;
+}
+
+.room-icon{
+    width: 90%;
+    display: flex;
+    text-align: left;
+    margin: 1rem auto;
+    
+   
+}
+
+/* ICON SECTION */
+.custom-icon-color{
+    color: #719a61;
+}
+
+.custom-btn-style{
+border-radius: 0px!important;
+background-color: #719a61!important;
+}
+
+.custom-btn-style:hover{
+    border-radius: 0px!important;
+    background-color: #53913b!important;
+    }
+
+
+/* CUSTOM SLIDE STYLE HEIGHT */
+
+.custom-image-class{
+ height: 600px;
+}
+
+/* CUSTOM HEADER ON SLIDE BOTTOM TITLE*/
+
+.big-header-with-box{
+    position: absolute;
+    z-index: 1;
+    left: 28px;
+    bottom: 0px;
+    background: #53913b;
+    color: #fff;
+    padding: 9px 20px;
+}
+
+/* CUSTOM SEARCH IN THE HOME PAGE STYLE */
+#custom-search-form{
+    background-color: aliceblue;
+    padding-top: 20px;
+
+}
+
+.custom-form-br-class{
+    border-radius: 0px!important;
+    padding-right: 0px!important;
+    margin-bottom: 1.8rem;
+}
+
+.form-custom-h{
+    border-radius: 0px!important;
+    height: 3rem;
+}
+
+.form-custom-btn{
+    height: 3rem;
+    border-radius: 0px!important;
+    width: 100%;
+    background-color: #000!important;
+}
+
+.form-custom-btn:hover{
+    height: 3rem;
+    border-radius: 0px!important;
+    width: 100%;
+    background-color: #53913b!important;
+}
+
+
+.room-icon .icon-text{
+   font-size: 1rem;
+   background-color: transparent;
+   color: #fff;
+   margin: 8px;
+}
+
+.icon-and-text{
+    color: #fff;
+    margin: 0px 10px;
+    flex: 3;
+}
+
+.icon-and-text h6{
+    margin: 0px;
+    color: grey;
+}
+
+.icon-and-text span{
+    background: transparent;
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ROOM FEATURED SECTION */
+#featured-houses-section{
+    background-color: #eff1f5;
+    padding-top: 50px;
+}
+
+.custom-h5-styles{
+    text-align: center;
+    margin: 1rem;
+}
+
+.custom-h5-styles a{
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.custom-p-styles{
+    text-align: center;
+    color: #f06a4a;
+    font-size: larger;
+}
+/* IMAGE ZOOMING */
+
+.img-zoom-styles img{
+    max-width: 100%;
+    height: 220px;
+    cursor: pointer;
+}
+ 
+ 
+.img-zoom-styles:hover img {
+    transform: scale(0.97);
+    transition: all 0.35s ease-in;
+}
+
+
+/* FOR SALE TAG ON THE IMAGE */
+.for-sale{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.for-rent{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    background: #1d83e8;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+/* SUBMIT PROPERTY SECTION */
+
+
+#submit-property-section{
+    position: relative;
+}
+.submit-p-img{
+    width: 100%;
+    height: 600px;
+
+}
+
+.custom-submit-pro-container{
+    position: absolute;
+    bottom: 0px;
+    background-color: #000000de;
+    width: 100%!important;
+    padding-top: 50px;
+    color: #fff;
+}
+.custom-text-pr-styles h2{
+ color: #53913b;
+ font-size: larger;
+ font-weight: normal;
+}
+
+.custom-text-pr-styles h2{
+   margin-bottom: 2rem;
+}
+
+.custom-text-h4-styles{
+    margin-bottom: 3rem;
+}
+
+.custom-text-p-style{
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.custom-submit-p-styles{
+    text-align: center;
+   
+}
+.custom-submit-p-styles button{
+        padding: 10px 20px;
+        background-color: #53913b;
+        border-radius: 0;
+        margin-bottom: 70px;
+}
+
+.custom-submit-p-styles button:hover{
+    background-color: #5a7f4b;
+}
+/* NEWS SECTION */
+#news-section{
+    position: relative;
+    background-color: #eff1f5;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.news-container{
+    display: flex;
+   
+}
+.news-h2{
+    margin-bottom: 20px;
+}
+.news-image-box img{
+width: 300px;
+height: 250px;
+margin-right: 1rem;
+}
+.news-title a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+.news-title a:hover{
+    color: #0065bd;   
+}
+.news-content{
+   color: #626262;
+  
+}
+
+.news-read-more{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0065bd;
+}
+
+.news-read-more a{
+    text-decoration: none;
+}
+.news-read-more a:hover{
+    color: #53913b;
+}
+
+.news-author a{
+    text-decoration: none;
+    color: #0065bd;
+}
+
+.news-author a:hover{
+    text-decoration: none;
+    color: #53913b;
+}
+
+.new-nav-icon-left{
+    position: absolute;
+    top: 20px;
+    left: 1042px;
+    color: #000000;
+    font-size: 30px;
+}
+
+.new-nav-icon-right{
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    color: #000000;
+    font-size: 30px;
+}
+
+.new-nav-icon-right .new-nav-icon-righ:hover{
+    color: #686868;
+}
+/* FOOTER SECTION STYLES */
+#footer-section{
+    background-color: #545454;
+    padding-top: 2rem;
+    color: #fff;
+}
+.footer-logo{
+   width: 90%;
+   margin: 0px 5px 15px 0px;
+}
+.footer-ul li{
+list-style: none;
+margin-left: -29px;
+padding-bottom: 10px;
+}
+
+.footer-ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-ul a:hover{
+    color: #6e6e6e;
+}
+.footer-p{
+    color: #c6c6c6;
+}
+/* COPYRIGHT SECTION */
+#copyright-section{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+#copyright-section a{
+    color: #fff;
+    text-decoration: none;
+}
+#copyright-section a:hover{
+    color: #777777;
+}
+@media (min-width: 992px){
+    .menu-styling{
+        text-transform: uppercase;
+        position: relative;
+        left: 15rem;
+    }
+    .menu-spacing{
+        padding: 0rem 0.5rem;
+       
+    }
+    .custom-active-menu{ 
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+        background-color: #719a61;
+        color: #fff;
+    }
+
+    .menu-spacing a:hover{ 
+        background: #719a61;
+        color: #fff;
+    }
+}
+
+
+
