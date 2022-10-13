@@ -1,18 +1,12 @@
-
-
-
-
-/* ROOM FEATURED SECTION */
+/* ROOM FEATURED SECTION STYLES START HERE*/
 #featured-houses-section {
     background-color: #eff1f5;
     padding-top: 50px;
-    padding-bottom: 345px;
 }
 .custom-h5-styles{
     text-align: center;
     margin: 1rem;
 }
-
 .custom-h5-styles a{
     color: grey;
     text-decoration: none;
@@ -30,14 +24,10 @@
     height: 220px;
     cursor: pointer;
 }
- 
- 
 .img-zoom-styles:hover img {
     transform: scale(0.97);
     transition: all 0.35s ease-in;
 }
-
-
 /* FOR SALE TAG ON THE IMAGE */
 .for-sale{
     position: absolute;
@@ -59,26 +49,19 @@
     color: #fff;
     font-size: 0.9rem;
 }
+/* ROOM FEATURED SECTION STYLES ENDS HERE*/
 
 
-/* SUBMIT PROPERTY SECTION */
-
-
+/* SUBMIT PROPERTY SECTION STYLES START HERE */
 #submit-property-section{
     position: relative;
 }
-.submit-p-img{
-    width: 100%;
-    height: 600px;
-
-}
-
 .custom-submit-pro-container{
     position: absolute;
     bottom: 0px;
-    background-color: #000000de;
+    top: 10px;
     width: 100%!important;
-    padding-top: 50px;
+    
     color: #fff;
 }
 .custom-text-pr-styles h2{
@@ -115,7 +98,10 @@
     background-color: #5a7f4b;
 }
 
-/* FOOTER SECTION STYLES */
+/* SUBMIT PROPERTY SECTION STYLES ENDS HERE */
+
+
+/* FOOTER SECTION STYLES START HERE */
 #footer-section{
     background-color: #545454;
     padding-top: 2rem;
@@ -142,7 +128,12 @@ padding-bottom: 10px;
 .footer-p{
     color: #c6c6c6;
 }
-/* COPYRIGHT SECTION */
+
+
+/* FOOTER SECTION STYLES ENDS HERE */
+
+
+/* COPYRIGHT SECTION STYLES START HERE */
 #copyright-section{
     background-color: #000;
     text-align: center;
@@ -157,27 +148,29 @@ padding-bottom: 10px;
 #copyright-section a:hover{
     color: #777777;
 }
-/* MEDIA QUERY SECTION */
+/* COPYRIGHT SECTION STYLES ENDS HERE */
 
+/* THIS STYLE HIDE THE NEWS SECTION ON MOBILE */
 #news-section{
     display: none;
    
 }
 
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    /* THIS HIDE CARD BOX ON THE SLIDE PAGE */
     .card-box {
         display: none;
     }
+    .submit-p-img {
+        width: 100%;
+        height: 55rem;
 
+    }
     .custom-submit-pro-container {
         position: absolute;
         bottom: 0px;
-        background-color: #000000de;
-        width: 100%!important;
-        padding-top: 60px;
+      
         color: #fff;
     }
 
@@ -231,14 +224,13 @@ padding-bottom: 10px;
     .card-box {
         display: none;
     }
+    .submit-p-img {
+        width: 100%;
+        height: 55rem;
+    }
 
     .custom-submit-pro-container {
         position: absolute;
-        bottom: 0px;
-        background-color: #000000de;
-        width: 100%!important;
-        padding-top: 60px;
-        color: #fff;
     }
 
 
@@ -290,6 +282,10 @@ padding-bottom: 10px;
        display: none;
     }
 
+    .submit-p-img {
+        width: 100%;
+        height: 55rem;
+    }
     #featured-houses-section {
         background-color: #eff1f5;
         padding-top: 50px;
@@ -331,8 +327,6 @@ padding-bottom: 10px;
         width: 100%;
         background-color: #53913b!important;
     }
-    
-    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -363,7 +357,6 @@ padding-bottom: 10px;
 
     #home-slide{
         position: relative;
-    
     }
     
     .card-box{
@@ -384,7 +377,6 @@ padding-bottom: 10px;
         text-align: left;
         font-weight: normal;
         font-size: 2rem;
-    
     }
     
     .card-box h3{
@@ -410,9 +402,7 @@ padding-bottom: 10px;
         width: 90%;
         display: flex;
         text-align: left;
-        margin: 1rem auto;
-        
-       
+        margin: 1rem auto; 
     }
     
     /* ICON SECTION */
@@ -430,9 +420,8 @@ padding-bottom: 10px;
         background-color: #53913b!important;
         }
     
-    
+
     /* CUSTOM SLIDE STYLE HEIGHT */
-    
     .custom-image-class{
      height: 600px;
     }
@@ -510,6 +499,7 @@ padding-bottom: 10px;
 
     /* NEWS SECTION */
     #news-section{
+        display: block;
         position: relative;
         background-color: #eff1f5;
         padding: 2rem 0rem 2rem 0rem;
@@ -587,7 +577,11 @@ padding-bottom: 10px;
         background-color: #eff1f5;
         padding-top: 50px;
         padding-bottom: 0px;
-    
     }
 
+    .submit-p-img{
+        width: 100%;
+        max-height: 35rem;
+    
+    }
 }
